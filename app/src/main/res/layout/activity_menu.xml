@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:orientation="vertical"
+    android:background="@drawable/menu"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/jamSholat"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Jam Sholat"/>
+        <Button
+            android:id="@+id/identitas"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Identitas Masjid"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/marquee"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Marquee"/>
+        <Button
+            android:id="@+id/pengumuman"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Pengumuman"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/slideshow"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="SlideShow"/>
+        <Button
+            android:id="@+id/tagline"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Tagline"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/update_identitas"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="SlideShow"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#f00"
+        android:textColor="#fff"
+        android:text="Keluar"/>
+
+</LinearLayout>
